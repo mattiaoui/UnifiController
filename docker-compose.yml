@@ -21,7 +21,7 @@ services:
             - /var/run/docker.sock:/tmp/docker.sock:ro
         restart: always
         networks:
-           - net_WIFI
+           - net_wifi
 
 #CONTAINER FOR SSL CERTIFICATE
     sslmanager:
@@ -37,7 +37,7 @@ services:
         links:
             - reverseprx
         networks:
-           - net_WIFI
+           - net_wifi
 
 #CONTAINER FOR UBIQUITI WIFI
 #CERTIFICATO SSL ATTIVATO
