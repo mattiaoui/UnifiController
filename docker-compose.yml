@@ -1,5 +1,5 @@
 # Copyright (c) 2019 Mattia Maragno
-# Composer File Servizi interni
+# Composer File Internal Service
 version: '3.7'
 services:
 ##########CONTAINER REVERSE PROXY NGINX
